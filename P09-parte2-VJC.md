@@ -60,3 +60,7 @@ En la siguiente tabla se pueden ver las principales diferencias entre ambos cert
 | Certificate                    | 76637f095515bd1099b17002440bcf39e37de78890e60f3a03c5fa6637b6d08c | 8da674a510e19c78759b48793e794cba3f4017f4be135d68708a43247cccd51  |
 | Public key                     | 50e0f3e20a496010b145ed354c119073e7d97ef4b2c6866bc5485451c406b138 | 4f9c823196c6a8e01667f4d85171294f2391302fd38ecb5d51f660c4259e01f6 |
 | CertificateSignature Algorithm | X9.62 ECDSA Signature with SHA-384                               | PKCS #1 SHA-256 With RSA Encryption                              |
+
+---
+
+Hecho por Víctor Jiménez
