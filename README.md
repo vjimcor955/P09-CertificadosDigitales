@@ -8,11 +8,11 @@ Este repositorio contiene todos los archivos relacionados con el Proyecto 9 de B
 
 Archivo .gif en el que ve como se accede desde el cliente al servidor usando el certificado.
 
-### [Parte2.md](P09-IncidentLinuxServer-VJC.md)
+### [Parte2.md](./P09-parte2-VJC.md)
 
 Análisis y comparativa entre ambos certificados.
 
-### [Parte3.md](P05-Anexos_IncidentLinuxServer-VJC.md)
+### [Parte3.md](./P09-parte3-VJC.md)
 
 Análisis de 3 certificados erróneos.
 
