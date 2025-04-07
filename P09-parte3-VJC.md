@@ -10,13 +10,19 @@
 
 ## 1. Análisis del certificado válido
 
-Cadena de confianza completa: El certificado ha sido emitido por una autoridad de certificación reconocida y confiable, y la cadena de certificación está completa sin problemas reportados.
+![8-sslServerTestVijmcor955.png](img/8-sslServerTestVijmcor955.png)
 
-Soporte para TLS 1.3: El servidor es compatible con el protocolo TLS 1.3, lo que mejora la seguridad y el rendimiento de las conexiones.
+El análisis del certificado de _p09-vjimcor955.sytes.net_ en [SSL Labs](https://www.ssllabs.com/ssltest/) ha dado como resultado que presenta una configuración sólida que cumple con los estándares actuales de seguridad. Se destacan los siguientes puntos:
 
-Clave y algoritmo de firma robustos: El certificado utiliza una clave EC de 256 bits con el algoritmo de firma SHA384withECDSA, considerados seguros y eficientes.
+- La cadena de confianza está completa, ya que el certificado ha sido emitido por una autoridad de certificación reconocida y confiable, sin que se hayan detectado errores en la validación de la cadena de certificación.
 
-Estado de revocación válido: El certificado no ha sido revocado y su estado es "Good", según la información de revocación proporcionada.
+- El servidor es compatible con el protocolo TLS 1.3, lo que representa una mejora significativa tanto en en seguridad como rendimiento.
+
+- El certificado utiliza una clave de curva elíptica de 256 bits junto con el algoritmo de firma SHA384withECDSA, ambos considerados como robustos y eficientes garantizando un alto nivel de protección criptográfica.
+
+- El certificado cuenta con un estado de revocación válido, lo que indica que el certificado no ha sido comprometido ni anulado por la entidad emisora.
+
+En conjunto, estos elementos reflejan una implementación de seguridad eficiente que cumple con las mejores prácticas en el uso de certificados digitales.
 
 ## 2. Certificados no válidos
 
