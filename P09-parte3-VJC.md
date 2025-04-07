@@ -2,6 +2,12 @@
 
 ## Indice
 
+1. [Análisis del certificado válido](#1-análisis-del-certificado-válido)
+2. [Certificados no válidos](#2-certificados-no-válidos)  
+   2.1. [cacert.org](#21-cacertorg)  
+   2.2. [cabinet.miratel.com.ua](#22-cabinetmiratelcomua)  
+   2.3. [codestack.site](#23-codestacksite)
+
 ## 1. Análisis del certificado válido
 
 Cadena de confianza completa: El certificado ha sido emitido por una autoridad de certificación reconocida y confiable, y la cadena de certificación está completa sin problemas reportados.
@@ -16,7 +22,7 @@ Estado de revocación válido: El certificado no ha sido revocado y su estado es
 
 Para este apartado he analizado en [SSL Labs](https://www.ssllabs.com/ssltest/) las páginas: _cacert.org_, _cabinet.miratel.com.ua_ y _codestack.site_. Los resultados han sido los siguientes:
 
-### cacert.org
+### 2.1. cacert.org
 
 ![9-sslServerTestCacert.png](img/9-sslServerTestCacert.png)
 
@@ -24,7 +30,7 @@ El análisis de _cacert.org_ da como resultado que el certificado no es valido p
 
 Aunque no afecte directamente a la validez del certificado, el servidor permite el uso de los protocolos TLS 1.0 y TLS 1.1, los cuales están obsoletos y presentan vulnerabilidades conocidas.
 
-### cabinet.miratel.com.ua
+### 2.2. cabinet.miratel.com.ua
 
 ![10-sslServerTestCabinet.png](img/10-sslServerTestCabinet.png)
 
@@ -40,7 +46,7 @@ El análisis de _cabinet.miratel.com.ua_ concluye que el servidor presenta múlt
 
 - Falta de soporte para los protocolos modernos y seguros TLS 1.2 y TLS 1.3.
 
-### codestack.site
+### 2.3. codestack.site
 
 ![11-sslServerTestCodestack.png](img/11-sslServerTestCodestack.png)
 
